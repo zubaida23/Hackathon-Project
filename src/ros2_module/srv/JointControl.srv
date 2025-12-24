@@ -1,0 +1,9 @@
+# Request
+string joint_name
+float64 target_position
+builtin_interfaces/Duration duration
+
+# Response
+bool success
+string error_message
+float64 actual_position

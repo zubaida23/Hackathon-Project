@@ -1,0 +1,10 @@
+# Request
+bool include_sensors
+bool include_joints
+bool include_imu
+
+# Response
+sensor_msgs/JointState joint_states
+sensor_msgs/Imu imu_data
+# sensor_msgs/[] sensor_data  # This would need to be implemented as a flexible array
+builtin_interfaces/Time timestamp

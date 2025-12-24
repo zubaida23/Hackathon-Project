@@ -1,55 +1,82 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!-- SYNC IMPACT REPORT
+Version change: N/A (initial creation) → 1.0.0
+Modified principles: N/A (new constitution)
+Added sections: Core Principles (6), Key Standards, Constraints, Success Criteria
+Removed sections: None
+Templates requiring updates:
+  - .specify/templates/plan-template.md ✅ updated
+  - .specify/templates/spec-template.md ✅ updated
+  - .specify/templates/tasks-template.md ✅ updated
+  - .specify/templates/commands/*.md ⚠ pending
+  - README.md ⚠ pending
+Follow-up TODOs: None
+-->
+
+# Physical AI & Humanoid Robotics Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### Accuracy Through Primary Source Verification
+All factual and technical claims must be traceable to verified sources; Citations required for all research papers, official documentation, and industry whitepapers; No unverified claims accepted in content.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### Clarity for Beginners and Intermediate Learners
+Content must be structured progressively from basic to advanced concepts; Explanations should be simple and accessible; Technical jargon must be defined when introduced.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### Reproducibility and Traceability
+All technical claims must be citable and verifiable; Code examples must be runnable and documented; System architectures must reflect real implementations.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### Practical Rigor in Real-World Systems
+Focus on actual robotics and AI workflows; Code examples must represent production-ready patterns; Documentation must address real-world deployment scenarios.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### Zero-Tolerance Plagiarism Policy
+All content must be original with proper attribution; Direct copying from sources prohibited; Citation format must follow academic standards.
 
-### [PRINCIPLE_6_NAME]
+### GitHub Pages Deployment Standard
+All content must build and deploy successfully on GitHub Pages; Docusaurus documentation format required; Code examples must be tested in deployment pipeline.
 
+## Key Standards
 
-[PRINCIPLE__DESCRIPTION]
+### Source Verification Requirements
+- All factual claims must cite peer-reviewed research papers, official robotics/AI documentation, or industry whitepapers
+- Citation format: Markdown-compatible academic citations
+- Primary sources preferred over secondary interpretations
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+### Content Quality Standards
+- Writing clarity: Simple, structured, and progressive explanations
+- Technical accuracy: Verified against authoritative sources
+- Educational progression: Beginner to intermediate level accessibility
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+### Code and Implementation Standards
+- Code examples must be runnable and properly documented
+- System diagrams must reflect real working systems
+- All technical implementations must be reproducible
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+## Constraints
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+### Format and Platform Requirements
+- Format: Docusaurus documentation framework
+- Deployment target: GitHub Pages
+- File structure must comply with Docusaurus standards
+
+### Content Limitations
+- Technical claims limited to verified sources
+- Code examples must run in documented environments
+- Diagrams must represent actual system architectures
+
+## Success Criteria
+
+### Verification Requirements
+- All claims verified against authoritative sources
+- Zero plagiarism detected through automated checks
+- Content builds and deploys successfully on GitHub Pages
+
+### Educational Impact
+- Content accessible to beginners and intermediate learners
+- Progressive complexity with clear explanations
+- Practical applicability to real-world robotics systems
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution governs all development activities for the Physical AI & Humanoid Robotics project. All contributions must comply with these principles. Amendments require documentation of changes and approval by project maintainers. All PRs and reviews must verify compliance with these standards. Code examples and technical claims must be validated against authoritative sources before acceptance.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-16 | **Last Amended**: 2025-12-16

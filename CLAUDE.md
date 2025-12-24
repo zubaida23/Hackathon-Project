@@ -208,3 +208,44 @@ Wait for consent; never auto-create ADRs. Group related decisions (stacks, authe
 
 ## Code Standards
 See `.specify/memory/constitution.md` for code quality, testing, performance, security, and architecture principles.
+- /sp.implement
+## Physical AI & Humanoid Robotics Book
+
+### Objective
+Implement the complete book using Docusaurus inside
+`physical-ai-book/docs` based strictly on approved specs.
+
+---
+
+## Implementation Rules
+
+1. **Single Source of Truth**
+   - ALL book chapters MUST be written inside:
+     ```
+     physical-ai-book/docs/
+     ```
+
+2. **Module Mapping**
+   - Module 1 → `docs/module-1-robotic-nervous-system/`
+   - Module 2 → `docs/module-2-digital-twin/`
+   - Module 3 → `docs/module-3-ai-robot-brain/`
+   - Module 4 → `docs/module-4-vla/`
+
+3. **Writing Style**
+   - Book tone (not blog)
+   - Engineering + academic
+   - Diagrams described in text
+   - Code blocks only when required
+
+4. **Sidebar Control**
+   - `physical-ai-book/sidebars.ts` controls TOC
+   - Every chapter must appear in sidebar
+
+5. **No Auto Folder Creation**
+   - Do NOT create new Docusaurus instances
+   - Do NOT duplicate `docs/`
+
+---
+
+## Done Criteria
+- Book builds successfully with:
