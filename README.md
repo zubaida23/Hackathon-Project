@@ -32,3 +32,6 @@ cd physical-ai-book
 npm install
 npm run start
 ```
+
+## Vercel Deployment Status
+This project is configured for deployment on Vercel and should be accessible at: https://hackathon-project-beta-six.vercel.app
